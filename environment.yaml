@@ -1,0 +1,28 @@
+name: 3dr
+channels:
+  - plotly
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - pip
+  - matplotlib-base
+  - ffmpeg
+  - cudatoolkit=11.3
+  - pip:
+    - numpy
+    - pillow==6.1
+    - pytorch-lightning
+    - torch==1.11
+    - torchvision
+    - gitpython
+    - einops
+    - cvbase
+    - opencv-python
+    - kornia
+    - imageio
+    - scikit-image
+    - scikit-learn
+    - scipy
+    - test-tube
+    - imageio-ffmpeg
